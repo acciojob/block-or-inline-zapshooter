@@ -1,16 +1,79 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <!-- Button -->
+    <div>
+        <button data-ns-test="block-inline-button">Test1</button>
+        <button>Test2</button>
+    </div>
+    Answer: Inline
 
+    <!-- Div -->
+    <div>
+        <div data-ns-test="block-inline-div">Test1</div>
+        <div>Test2</div>
+    </div>
+    Answer: Block
+
+    <!-- Span -->
+    <div>
+        <span data-ns-test="block-inline-span">Test1</span>
+        <span>Test2</span>
+    </div>
+    Answer: Inline
+
+    <!-- P -->
+    <div>
+        <p data-ns-test="block-inline-p">Test1</p>
+        <p>Test2</p>
+    </div>
+    Answer: Block
+
+    <!-- Input -->
+    <div>
+        <input data-ns-test="block-inline-input" value="Test1">
+        <input value="Test2">
+    </div>
+    Answer: Inline
+
+    <!-- Cite -->
+    <div>
+        <cite data-ns-test="block-inline-cite">Test1</cite>
+        <cite>Test2</cite>
+    </div>
+    Answer: Inline
+
+    <!-- Code -->
+    <div>
+        <code data-ns-test="block-inline-code">Test1</code>
+        <code>Test2</code>
+    </div>
+    Answer: Inline
+
+    <!-- H1 -->
+    <div>
+        <h1 data-ns-test="block-inline-h1">Test1</h1>
+        <h1>Test2</h1>
+    </div>
+    Answer: Block
+
+    <!-- Sup -->
+    <div>
+        <sup data-ns-test="block-inline-sup">Test1</sup>
+        <sup>Test2</sup>
+    </div>
+    Answer: Inline
+
+    <!-- Sub -->
+    <div>
+        <sub data-ns-test="block-inline-sub">Test1</sub>
+        <sub>Test2</sub>
+    </div>
+    Answer: Inline
 </body>
-
 </html>
